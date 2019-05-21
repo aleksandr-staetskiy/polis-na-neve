@@ -1,0 +1,83 @@
+.promo {
+  background: url(../img/ultra.jpg)no-repeat;
+  background-size: cover;
+  color: #fff;
+
+  @media (max-width: $screen-sm) {
+    
+    & {
+      background-size: 100%;
+    }
+  }
+
+  &__title {
+    font-size: 55px;
+    text-shadow: -4px 0px 5px rgb(74, 83, 89);
+    margin-top: 65px;
+
+    @media (max-width: $screen-sm) {
+    
+      & {
+        margin-top: 30px;
+        font-size: 30px;
+      }
+    }
+  }
+
+  &__arrow {
+    cursor: pointer;
+    display: block;
+    width: 63px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background: url(../img/arrow.png)no-repeat;
+    background-size: contain;
+
+    & {
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+  }
+  & {
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+  }
+  @keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+  }
+
+  @media (max-width: $screen-sm) {
+    
+    & {
+      width: 43px;
+      height: 21px;
+    }
+  }
+  
+  }
+
+  &__infoline {
+    text-align: center;
+    margin-top: 145px;
+    padding: 20px 0px;
+    background: hsla(11, 95%, 62%, 0.866);
+
+    @media (max-width: $screen-sm) {
+    
+      & {
+        margin-top: 40px;
+      }
+
+      & p {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+}

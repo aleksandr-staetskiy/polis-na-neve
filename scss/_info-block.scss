@@ -1,0 +1,13 @@
+.info-block {
+  padding-top: 20px;
+
+  &__item {
+    text-align: center;
+  }
+  
+  &__icon {
+    width: 45px;
+    height: 45px;
+    margin: 15px 0px;
+  }
+}
