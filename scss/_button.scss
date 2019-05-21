@@ -10,11 +10,12 @@
 
   &_lg {
     width: 100%;
+    background: #324690;
   }
 
-  &_blue {
+  &_pink {
     margin-top: 15px;
-    background: $color-main--blue;
+    background: $color-main;
   }
 
   &__text {
@@ -36,7 +37,7 @@
 
 &_bd_orange {
   border: 2px solid $color-main;
-  background: $bg;
+  background: #fff;
 
   @media (max-width: 769px) {
     & {
