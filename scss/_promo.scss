@@ -3,12 +3,12 @@
   background-size: cover;
   color: #fff;
 
-  @media (max-width: $screen-sm) {
+  // @media (max-width: $screen-sm) {
     
-    & {
-      background-size: 100%;
-    }
-  }
+  //   & {
+  //     background-size: 100%;
+  //   }
+  // }
 
   &__block {
     margin-top: 40px;
