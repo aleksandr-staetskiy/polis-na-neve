@@ -3,12 +3,6 @@
   background-size: cover;
   color: #fff;
 
-  // @media (max-width: $screen-sm) {
-    
-  //   & {
-  //     background-size: 100%;
-  //   }
-  // }
 
   &__block {
     margin-top: 40px;
@@ -32,13 +26,19 @@
     
       & {
         margin-top: 30px;
-        font-size: 30px;
+        font-size: 25px;
       }
     }
   }
 
   &__subtitle {
     font-size: 23px;
+    @media (max-width: $screen-sm) {
+    
+      & {
+        font-size: 18px;
+      }
+    }
   }
 
 
