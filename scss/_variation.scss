@@ -8,11 +8,17 @@
   }
 
   &__card {
-    padding: 30px;
+    padding: 35px;
     text-align: center;
     background: #fff;
     border: 2px solid $color-main--blue;
     margin-bottom: 15px;
+    @media (max-width: $screen-sm) {
+    
+      & {
+        padding: 20px;
+      }
+    }
   }
 
   &__name {

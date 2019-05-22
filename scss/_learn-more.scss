@@ -32,6 +32,10 @@
     padding-left: 17px;
     border: none;
 
+    &_border_dark {
+      border: 1px solid #000;
+    }
+
     @media (max-width: $screen-sm) {
     
       & {

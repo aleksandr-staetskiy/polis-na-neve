@@ -18,7 +18,12 @@
 
   &__info {
     text-align: center;
+
+    &_theme_pink {
+      color: $color-main;
+    }
   }
+
 
   &_big_blue {
     text-transform: uppercase;
