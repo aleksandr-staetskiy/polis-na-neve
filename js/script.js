@@ -11,6 +11,7 @@ $(document).ready(function () {
   });
 
 
+
 //   button to top
 $(function () {
 
@@ -93,6 +94,21 @@ $(document).ready(function(){
 		$("#"+tab_id).addClass('current');
 	})
 })
+
+
+// resize img init
+
+$(function () {
+    $(".resizable").simplebox();
+});
+
+
+// init lazy imgs
+
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+});
+
 
 
 
